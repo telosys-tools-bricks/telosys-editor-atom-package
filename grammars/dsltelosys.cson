@@ -1,0 +1,49 @@
+'scopeName': 'source.dsltelosys'
+'name': 'dsltelosys'
+'fileTypes': [
+  'entity',
+  'cfg',
+  'model'
+]
+'patterns': [
+  {
+    # Model & CFG:Comment
+    'name': 'text.comment.dsltelosys'
+    'match': '#.+|#'
+	},
+  {
+    # Model & CFG:Variables
+    'name': 'meta.function.dsltelosys'
+    'captures':
+        '1':
+          'name': 'entity.constant.dsltelosys'
+        '2':
+          'name': 'keyword.control.dsltelosys'
+    'match': '(.+)=(.+|)'
+	},
+  {
+    # Entity:Comment
+    'name': 'text.comment.dsltelosys'
+    'match': '(\/\/).*?(\n|\$)'
+	},
+  {
+    # Entity:Entity
+    'name': 'entity.constant.dsltelosys'
+    'match': '^[A-Za-z]*[a-zA-Z]+[ {]'
+  },
+  {
+    # Entity:Attribute option(s)
+    'name': 'entity.name.function.dsltelosys'
+    'match': '@[a-zA-Z]+'
+  },
+  {
+    # Entity:Attribute type (ex : "int", "date", "string"... Entities have a different color)
+    'name': 'meta.function.dsltelosys'
+    'captures':
+        '1':
+          'name': 'keyword.control.dsltelosys'
+        '3':
+          'name': 'entity.constant.dsltelosys'
+    'match': ':+ +((?i)int|(?i)integer|(?i)string|(?i)short|(?i)float|(?i)date|(?i)boolean|(?i)long|(?i)varchar|(?i)decimal|(?i)smallint|(?i)longvarchar|(?i)long varchar|(?i)timestamp)( +{|)|:+ +([a-zA-Z]+)( +{|)'
+  }
+]

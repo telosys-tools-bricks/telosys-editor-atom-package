@@ -1,0 +1,24 @@
+{
+  "name": "telosys-editor-atom-package",
+  "version": "0.0.0",
+  "description": "Telosys language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+            "2.0.0": "getProvider"
+          }
+      }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telosys-tools-bricks/telosys-editor-atom-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telosys-tools-bricks/telosys-editor-atom-package/issues"
+  },
+  "license": "LGPLV3"
+}

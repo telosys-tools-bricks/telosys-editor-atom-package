@@ -1,0 +1,19 @@
+[
+	"@AutoIncremented",
+	"@Embedded",
+	"@Future",
+	"@Id",
+	"@LongText",
+	"@Max()",
+	"@Min()",
+	"@NotBlank",
+	"@NotEmpty",
+	"@NotNull",
+	"@ObjectType",
+	"@Past",
+	"@PrimitiveType",
+	"@SizeMax()",
+	"@SizeMin()",
+	"@SqlType",
+	"@UnsignedType"
+]
