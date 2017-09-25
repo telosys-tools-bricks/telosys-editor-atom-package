@@ -1,4 +1,4 @@
-# language-dsl-telosys
+# Telosys-editor-atom-package
 
 Telosys DSL models and configuration files support for Atom.  
 
