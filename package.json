@@ -1,7 +1,7 @@
 {
-  "name": "telosys-editor-atom-package",
+  "name": "telosys",
   "version": "0.0.0",
-  "description": "Telosys language support in Atom",
+  "description": "Telosys editors for Atom",
   "engines": {
     "atom": "*"
   },
