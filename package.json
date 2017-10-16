@@ -1,6 +1,6 @@
 {
   "name": "telosys",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Telosys editors for Atom",
   "engines": {
     "atom": "*"
@@ -8,9 +8,9 @@
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
-            "2.0.0": "getProvider"
-          }
+        "2.0.0": "getProvider"
       }
+    }
   },
   "dependencies": {},
   "repository": {
