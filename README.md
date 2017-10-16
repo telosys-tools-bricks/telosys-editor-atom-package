@@ -1,4 +1,4 @@
-# Telosys-editor-atom-package
+# Telosys package for Atom editor
 
 Telosys DSL models and configuration files support for Atom.  
 
