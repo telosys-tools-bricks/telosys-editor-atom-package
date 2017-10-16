@@ -44,6 +44,6 @@
           'name': 'keyword.control.dsltelosys'
         '3':
           'name': 'entity.constant.dsltelosys'
-    'match': ':+ +((?i)int|(?i)integer|(?i)string|(?i)short|(?i)float|(?i)date|(?i)boolean|(?i)long|(?i)varchar|(?i)decimal|(?i)smallint|(?i)longvarchar|(?i)long varchar|(?i)timestamp)( +{|)|:+ +([a-zA-Z]+)( +{|)'
+    'match': ':+ +((?i)int|(?i)integer|(?i)string|(?i)byte|(?i)short|(?i)float|(?i)date|(?i)boolean|(?i)long|(?i)varchar|(?i)decimal|(?i)double|(?i)smallint|(?i)longvarchar|(?i)long varchar|(?i)longtext|(?i)binary|(?i)time|(?i)timestamp)( +{|)|:+ +([A-Z][a-z][a-zA-Z]+)( +{|)'
   }
 ]
