@@ -12,7 +12,9 @@
       }
     }
   },
-  "dependencies": {},
+  "dependencies": {
+	"atom-shell-commands":"1.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/telosys-tools-bricks/telosys-editor-atom-package.git"
