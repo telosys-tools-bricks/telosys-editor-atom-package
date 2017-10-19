@@ -1,12 +1,13 @@
 # Telosys package for Atom editor
 
-Telosys DSL models and configuration files support for Atom.  
+Telosys templates, DSL models and configuration files support for Atom.  
 
 ## Introduction
 
 This package provides syntax coloration and auto-completion for :  
 - Telosys DSL model ".entity" & ".model" files.  
 - Telosys configuration files ".cfg".  
+- Telosys template files ".cfg".  
 
 ## Installation
 
@@ -29,7 +30,7 @@ Use the Atom Package manager to install this package :
         arguments: [
           "/C"
           "start"
-          "tt.bat"
+          "tt"
         ]
         options:
           cwd: "{ProjectDir}"

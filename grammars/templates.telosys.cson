@@ -1,0 +1,17 @@
+'scopeName': 'source.templates.telosys'
+'name': 'templates.telosys'
+'fileTypes': [
+  'templates.cfg',
+]
+'patterns': [
+  {
+    # CFG:Comment
+    'name': 'text.comment.templates.telosys'
+    'match': '#.+|#'
+	},
+  {
+    # Template CFG:Variables
+    'name': 'entity.constant.templates.telosys'
+    'match': '.{BEANNAME}|Xxx'
+	}
+]
