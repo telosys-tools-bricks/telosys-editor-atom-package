@@ -64,22 +64,6 @@
 		"type": "keyword"
 	},
 	{
-		"text": "PrimitiveType",
-		"type": "keyword"
-	},
-	{
-		"text": "ObjectType",
-		"type": "keyword"
-	},
-	{
-		"text": "UnsignedType",
-		"type": "keyword"
-	},
-	{
-		"text": "SqlType",
-		"type": "keyword"
-	},
-	{
 		"text": "string",
 		"type": "value"
 	},
@@ -89,10 +73,6 @@
 	},
 	{
 		"text": "short",
-		"type": "value"
-	},
-	{
-		"text": "integer",
 		"type": "value"
 	},
 	{

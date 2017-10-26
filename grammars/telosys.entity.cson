@@ -17,7 +17,7 @@
   {
     # Entity:Attribute option(s)
     'name': 'entity.name.function.telosys.entity'
-    'match': '@[a-zA-Z]+'
+    'match': '(@AutoIncremented|@Embedded|@Future|@Past|@Id|@LongText|@Max()|@Min()|@NotBlank|@NotEmpty|@NotNull|@ObjectType|@PrimitiveType|@SizeMax()|@SqlType|@UnsignedType)'
   },
   {
     # Entity:Attribute type (ex : "int", "date", "string"... Entities have a different color)
