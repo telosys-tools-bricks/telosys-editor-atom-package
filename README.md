@@ -19,8 +19,9 @@ Use the Atom Package manager to install this package :
 4 - The package should appear below, just click on the blue "Install" button and you're done.  
 
 **ADDITIONAL** : If you want to use Telosys-CLI from Atom :  
-1 - Install Telosys-CLI by following the instructions at [the Telosys-CLI repo](https://github.com/telosys-tools-bricks/telosys-cli)  
-2 - Add the following code to Atom's config.cson file (File > Config) :
+1 - Install Telosys-CLI by following the instructions at [the Telosys-CLI repo](https://github.com/telosys-tools-bricks/telosys-cli)
+2 - Install `atom-shell-commands` package in Atom
+3 - Add the following code to Atom's config.cson file (File > Config) :
 ```
   "atom-shell-commands":
     commands: [
@@ -38,7 +39,7 @@ Use the Atom Package manager to install this package :
       }
     ]
 ```
-3 - In Atom, type `atom-shell-commands:telosys` in the Atom command palette, or hit CTRL+1 to start Telosys-CLI right in your project's folder.
+4 - In Atom, type `atom-shell-commands:telosys` in the Atom command palette, or hit CTRL+1 to start Telosys-CLI right in your project's folder.
 
 ## License
 
