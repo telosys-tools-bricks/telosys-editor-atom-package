@@ -1,0 +1,142 @@
+[
+	{
+		"text": "@AutoIncremented",
+		"type": "keyword"
+	},
+	{
+		"text": "@Embedded",
+		"type": "keyword"
+	},
+	{
+		"text": "@Future",
+		"type": "keyword"
+	},
+	{
+		"text": "@Past",
+		"type": "keyword"
+	},
+	{
+		"text": "@Id",
+		"type": "keyword"
+	},
+	{
+		"text": "@LongText",
+		"type": "keyword"
+	},
+	{
+		"text": "@Max()",
+		"type": "keyword"
+	},
+	{
+		"text": "@Min()",
+		"type": "keyword"
+	},
+	{
+		"text": "@NotBlank",
+		"type": "keyword"
+	},
+	{
+		"text": "@NotEmpty",
+		"type": "keyword"
+	},
+	{
+		"text": "@NotNull",
+		"type": "keyword"
+	},
+	{
+		"text": "@ObjectType",
+		"type": "keyword"
+	},
+	{
+		"text": "@PrimitiveType",
+		"type": "keyword"
+	},
+	{
+		"text": "@SizeMax()",
+		"type": "keyword"
+	},
+	{
+		"text": "@SqlType",
+		"type": "keyword"
+	},
+	{
+		"text": "@UnsignedType",
+		"type": "keyword"
+	},
+	{
+		"text": "PrimitiveType",
+		"type": "keyword"
+	},
+	{
+		"text": "ObjectType",
+		"type": "keyword"
+	},
+	{
+		"text": "UnsignedType",
+		"type": "keyword"
+	},
+	{
+		"text": "SqlType",
+		"type": "keyword"
+	},
+	{
+		"text": "string",
+		"type": "value"
+	},
+	{
+		"text": "byte",
+		"type": "value"
+	},
+	{
+		"text": "short",
+		"type": "value"
+	},
+	{
+		"text": "integer",
+		"type": "value"
+	},
+	{
+		"text": "int",
+		"type": "value"
+	},
+	{
+		"text": "long",
+		"type": "value"
+	},
+	{
+		"text": "decimal",
+		"type": "value"
+	},
+	{
+		"text": "float",
+		"type": "value"
+	},
+	{
+		"text": "double",
+		"type": "value"
+	},
+	{
+		"text": "boolean",
+		"type": "value"
+	},
+	{
+		"text": "date",
+		"type": "value"
+	},
+	{
+		"text": "time",
+		"type": "value"
+	},
+	{
+		"text": "timestamp",
+		"type": "value"
+	},
+	{
+		"text": "binary",
+		"type": "value"
+	},
+	{
+		"text": "longtext",
+		"type": "value"
+	}
+]

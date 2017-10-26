@@ -1,0 +1,22 @@
+'scopeName': 'source.telosys.vm'
+'name': 'templates.telosys'
+'fileTypes': [
+  'vm'
+]
+'patterns': [
+  {
+    # vm:Comment
+    'name': 'text.comment.telosys.vm'
+    'match': '##.+'
+	},
+  {
+    # vm:Reserved words
+    'name': 'keyword.control.telosys.vm'
+    'match': '(#assertFalse|#assertTrue|#break|#checkId|#define|#elseif|#else|#end|#error|#evaluate|#foreach|#if|#include|#macro|#parse|#set|#stop|#using)'
+	},
+  {
+    # vm:Variables
+    'name': 'entity.constant.telosys.vm'
+    'match': '([$][a-zA-Z_.-]+)|([$][{][a-zA-Z_.-]+[}])'
+	}
+]

@@ -1,0 +1,23 @@
+'scopeName': 'source.telosys.commons'
+'name': 'common.telosys'
+'fileTypes': [
+  'telosys-tools.cfg',
+  'model'
+]
+'patterns': [
+  {
+    # CFG & Model:Comment
+    'name': 'text.comment.telosys.commons'
+    'match': '#.+|#'
+	},
+  {
+    # CFG & Model:Variables
+    'name': 'meta.function.telosys.commons'
+    'captures':
+        '1':
+          'name': 'entity.constant.telosys.commons'
+        '2':
+          'name': 'keyword.control.telosys.commons'
+    'match': '(.+)=(.+|)'
+	}
+]

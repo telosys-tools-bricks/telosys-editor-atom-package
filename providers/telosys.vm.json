@@ -1,0 +1,74 @@
+[
+	{
+		"text": "#assertFalse()",
+		"type": "function"
+	},
+	{
+		"text": "#assertTrue()",
+		"type": "function"
+	},
+	{
+		"text": "#break",
+		"type": "function"
+	},
+	{
+		"text": "#checkId()",
+		"type": "function"
+	},
+	{
+		"text": "#define()",
+		"type": "function"
+	},
+	{
+		"text": "#else",
+		"type": "function"
+	},
+	{
+		"text": "#elseif()",
+		"type": "function"
+	},
+	{
+		"text": "#end",
+		"type": "function"
+	},
+	{
+		"text": "#error()",
+		"type": "function"
+	},
+	{
+		"text": "#evaluate()",
+		"type": "function"
+	},
+	{
+		"text": "#foreach()",
+		"type": "function"
+	},
+	{
+		"text": "#if()",
+		"type": "function"
+	},
+	{
+		"text": "#include()",
+		"type": "function"
+	},
+	{
+		"text": "#macro()",
+		"type": "function"
+	},
+	{
+		"text": "#parse()",
+		"type": "function"
+	},
+	{
+		"text": "#set()",
+		"type": "function"
+	},
+	{
+		"text": "#stop",
+		"type": "function"
+	},
+	{
+		"text": "#using()",
+		"type": "function"
+	}
+]

@@ -1,0 +1,17 @@
+'scopeName': 'source.telosys.templates.cfg'
+'name': 'templates.telosys'
+'fileTypes': [
+  'templates.cfg',
+]
+'patterns': [
+  {
+    # CFG:Comment
+    'name': 'text.comment.telosys.templates.cfg'
+    'match': '#.+|#'
+	},
+  {
+    # Template CFG:Variables
+    'name': 'entity.constant.telosys.templates.cfg'
+    'match': '([$][a-zA-Z_.-]+)|([$][{][a-zA-Z_.-]+[}])'
+	}
+]
