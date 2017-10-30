@@ -56,6 +56,10 @@
 		"type": "keyword"
 	},
 	{
+		"text": "@SizeMin()",
+		"type": "keyword"
+	},
+	{
 		"text": "@SqlType",
 		"type": "keyword"
 	},
@@ -93,6 +97,18 @@
 	},
 	{
 		"text": "double",
+		"type": "value"
+	},
+	{
+		"text": "smallint",
+		"type": "value"
+	},
+	{
+		"text": "longvarchar",
+		"type": "value"
+	},
+	{
+		"text": "varchar",
 		"type": "value"
 	},
 	{
