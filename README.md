@@ -32,7 +32,7 @@ Use the Atom Package manager to install this package :
           "/C"
           "start"
           "tt"
-		  "-h {ProjectDir}"
+	  "-h {ProjectDir}"
         ]
         options:
           cwd: "{ProjectDir}"
