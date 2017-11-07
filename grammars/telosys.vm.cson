@@ -29,7 +29,7 @@
         '5':
           'name': 'entity.constant.telosys.vm'
         '1':
-          'name': 'storage.type.function.vm'
+          'name': 'entity.name.function.telosys.vm'
     'match': '[$][{a-zA-Z0-9-_]+[.]([a-zA-Z0-9-_]+)[(]|([$][a-zA-Z0-9-_]+)|([$]{[a-zA-Z0-9-_.]+})|([$]{[a-zA-Z0-9-_.]+[ ]})|([.][a-zA-Z0-9-_]+[)|}]+)'
 	}
 ]
