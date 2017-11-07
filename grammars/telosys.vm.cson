@@ -17,6 +17,19 @@
   {
     # vm:Variables
     'name': 'entity.constant.telosys.vm'
-    'match': '([$][a-zA-Z0-9_.-]+)|([$][{][a-zA-Z0-9_.-]+([}]|[a-zA-Z0-9_.-]+.+[}]))'
+    'captures':
+        '1':
+          'name': 'entity.constant.telosys.vm'
+        '2':
+          'name': 'entity.constant.telosys.vm'
+        '4':
+          'name': 'entity.constant.telosys.vm'
+        '5':
+          'name': 'entity.constant.telosys.vm'
+        '3':
+          'name': 'storage.type.function.vm'
+        '7':
+          'name': 'storage.type.function.vm'
+    'match': '([$][a-zA-Z0-9-_.]+|[$][{][a-zA-Z0-9-_.]+[}])|([$][{][a-zA-Z0-9-_]+[.])+([a-zA-Z0-9-_]+)([(][a-zA-Z0-9-_$]+)([|.][a-zA-Z0-9-_]+[)][}]|[.]([a-zA-Z0-9-_]+)[(]+[a-zA-Z0-9-_$]+[|.]([a-zA-Z0-9-_$]+)[)|(][)|$a-zA-Z0-9-_.]+[}]|[)][}])'
 	}
 ]
