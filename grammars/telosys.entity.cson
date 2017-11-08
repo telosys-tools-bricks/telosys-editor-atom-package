@@ -11,8 +11,11 @@
 	},
   {
     # Entity:Entity
-    'name': 'entity.constant.telosys.entity'
-    'match': '^[A-Za-z]*[a-zA-Z]+[ {]'
+    'name': 'meta.function.telosys.entity'
+    'match': '(^[A-Za-z]*[a-zA-Z]).+[{]'
+    'captures':
+        '1':
+          'name':'entity.constant.telosys.entity'
   },
   {
     # Entity:Attribute option(s)
@@ -21,7 +24,6 @@
   },
   {
     # Entity:Attribute type (ex : "int", "date", "string"... Entities have a different color)
-    'name': 'meta.function.telosys.entity'
     'captures':
         '1':
           'name': 'keyword.control.telosys.entity'
