@@ -9,6 +9,10 @@ This package provides syntax coloration and auto-completion for :
 - Telosys configuration files ".cfg".  
 - Telosys template files ".cfg".  
 
+It also provides icons for :  
+- Telosys Tools folder.  
+- Telosys .entity, .model, .vm, .dbcfg and .dbrep files.  
+
 ## Installation
 
 Use the Atom Package manager to install this package :
