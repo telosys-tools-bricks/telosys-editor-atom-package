@@ -1,11 +1,39 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
-@import "ui-variables";
-
-// advanced provider uses this class
-// this is just simple italicizing, but, you know, use your imagination
-.aab-right-label {
-	font-style: italic;
+.file-icon(@filename) {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	content: "";
+	font-size: 1.25em;
+	height: 1.5rem !important;
+	vertical-align: -4px;
+	top: 0;
+	background-image: url("atom://telosys/icons/@{filename}.png") !important;
 }
+
+.tree-view .file {
+	[data-name$=".vm"]:before {
+		.file-icon(vm_file);
+	}
+
+	[data-name$=".entity"]:before {
+		.file-icon(entity_file);
+	}
+
+	[data-name$=".dbcfg"]:before {
+		.file-icon(dbcfg_file);
+	}
+
+	[data-name$=".dbrep"]:before {
+		.file-icon(dbrep_file);
+	}
+
+	[data-name$=".model"]:before {
+		.file-icon(model_file);
+	}
+}
+
+.tree-view .directory {
+		[data-name="TelosysTools"]:before {
+			.file-icon(TelosysTools_folder)
+		}
+	}
