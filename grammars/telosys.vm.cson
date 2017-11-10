@@ -16,11 +16,8 @@
 	},
   {
     # vm:Variables
-    'name': 'entity.constant.telosys.vm'
     'captures':
-        '0':
-          'name': 'entity.constant.telosys.vm'
-        '2':
+        '1':
           'name': 'entity.constant.telosys.vm'
         '3':
           'name': 'entity.constant.telosys.vm'
@@ -28,8 +25,10 @@
           'name': 'entity.constant.telosys.vm'
         '5':
           'name': 'entity.constant.telosys.vm'
-        '1':
+        '6':
+          'name': 'entity.constant.telosys.vm'
+        '2':
           'name': 'entity.name.function.telosys.vm'
-    'match': '[$][{a-zA-Z0-9-_]+[.]([a-zA-Z0-9-_]+)[(]|([$][a-zA-Z0-9-_]+)|([$]{[a-zA-Z0-9-_.]+})|([$]{[a-zA-Z0-9-_.]+[ ]})|([.][a-zA-Z0-9-_]+[)|}]+)'
+    'match': '([$][{a-zA-Z0-9-_]+[.]([a-zA-Z0-9-_]+))[(]|([$][a-zA-Z0-9-_]+[.][a-zA-Z0-9-_]+)[ |)]+([ |}])|([$][a-zA-Z0-9-_.]+)|([$]{[a-zA-Z0-9-_.]+})'
 	}
 ]
