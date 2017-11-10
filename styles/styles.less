@@ -10,6 +10,10 @@
 	background-image: url("atom://telosys/icons/@{filename}.png") !important;
 }
 
+.tree-view {
+	font-size: 20px;
+}
+
 .tree-view .file {
 	[data-name$=".vm"]:before {
 		.file-icon(vm_file);
@@ -29,6 +33,14 @@
 
 	[data-name$=".model"]:before {
 		.file-icon(model_file);
+	}
+
+	[data-name$="telosys-tools.cfg"]:before {
+		.file-icon(telosys-tools_cfg_file);
+	}
+
+	[data-name$="templates.cfg"]:before {
+		.file-icon(templates_cfg_file);
 	}
 }
 
