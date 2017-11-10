@@ -32,12 +32,7 @@ Use the Atom Package manager to install this package :
       {
         name: "telosys"
         command: "cmd"
-        arguments: [
-          "/C"
-          "start"
-          "tt"
-	  "-h {ProjectDir}"
-        ]
+        arguments: [ "/C", "start", "tt", "-h {ProjectDir}" ]
         options:
           cwd: "{ProjectDir}"
           keymap: 'ctrl-1'
