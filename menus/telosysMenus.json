@@ -1,0 +1,9 @@
+{
+  "menu" : [
+    {
+
+       "label": "Telosys-CLI", "command": "telosys:cli" 
+
+    }
+  ]
+}

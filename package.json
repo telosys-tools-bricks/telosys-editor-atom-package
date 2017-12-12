@@ -1,7 +1,7 @@
 {
   "name": "telosys",
   "main": "./lib/main",
-  "version": "2.5.0",
+  "version": "2.3.0",
   "description": "Telosys editors for Atom",
   "keywords": [
     "autocomplete",
@@ -13,7 +13,7 @@
     "atom": "*"
   },
   "providedServices": {
-    "autocomplete.provider": {
+    "telosys.provider": {
       "versions": {
         "2.0.0": "getProvider"
       }

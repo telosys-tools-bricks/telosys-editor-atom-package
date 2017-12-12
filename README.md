@@ -6,12 +6,10 @@ Telosys templates, DSL models and configuration files support for Atom.
 
 This package provides syntax coloration and auto-completion for :  
 - Telosys DSL model ".entity" & ".model" files.  
-- Telosys configuration files ".cfg".  
-- Telosys template files ".cfg".  
+- Telosys configuration files "telosys-tools.cfg".  
+- Telosys template files ".vm" and "templates.cfg".  
 
-It also provides icons for :  
-- Telosys Tools folder.  
-- Telosys .entity, .model, .vm, .dbcfg and .dbrep files.  
+It also allows you to launch Telosys-CLI in one click !
 
 ## Installation
 
@@ -19,31 +17,14 @@ Use the Atom Package manager to install this package :
 
 1 - In Atom, open the "File" menu and select "Settings".  
 2 - In the settings, click on "Install".  
-3 - Click on "Search packages" and type "language-dsl-telosys".  
+3 - Click on "Search packages" and type "telosys".  
 4 - The package should appear below, just click on the blue "Install" button and you're done.  
 
-**ADDITIONAL** : If you want to use Telosys-CLI from Atom :  
-1 - Install Telosys-CLI by following the instructions at [the Telosys-CLI repo](https://github.com/telosys-tools-bricks/telosys-cli)  
-2 - Check if `atom-shell-commands` package is installed in Atom, if not, then install it.  
-3 - Add the following code to Atom's config.cson file (File > Config) :  
-```
-  "atom-shell-commands":
-    commands: [
-      {
-        name: "telosys"
-        command: "cmd"
-        arguments: [ "/C", "start", "tt", "-h {ProjectDir}" ]
-        options:
-          cwd: "{ProjectDir}"
-          keymap: 'ctrl-1'
-      }
-    ]
-```  
-NOTE : This command is adapted for Windows. However, you can use this on Linux by tuning the "arguments" line. Example with 'xterm':  
-```
-        arguments: [ "xterm", "tt", "-h {ProjectDir}" ]
-```
-4 - In Atom, type `atom-shell-commands:telosys` in the Atom command palette, or hit CTRL+1 to start Telosys-CLI right in your project's folder.
+## Usage
+
+After installation, this package adds a "Telosys-CLI" button to Atom's main menu.  
+Right-click on it to open Telosys-CLI automatically configurated with your project's path.  
+You can also use the "Ctrl+Alt+t" keybinding to do the same thing.
 
 ## License
 
