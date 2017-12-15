@@ -19,10 +19,13 @@ Use the Atom Package manager to install this package :
 2 - In the settings, click on "Install".  
 3 - Click on "Search packages" and type "telosys".  
 4 - The package should appear below, just click on the blue "Install" button and you're done.  
+--- For Linux/OSX users ---  
+5 - If you do not use a classic terminal, enter it in the package's parameters.  
 
 ## Usage
 
 After installation, this package adds a "Telosys-CLI" button to Atom's main menu.  
+(Please not that depending on your Operating System this button may not be displayed in the main menu. However, you can always access it from the Packages Submenu).  
 Right-click on it to open Telosys-CLI automatically configurated with your project's path.  
 You can also use the "Ctrl+Alt+t" keybinding to do the same thing.
 
