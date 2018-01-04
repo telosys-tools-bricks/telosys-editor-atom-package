@@ -68,7 +68,11 @@
 		"type": "keyword"
 	},
 	{
-		"text": "string",
+		"text": "binary",
+		"type": "value"
+	},
+	{
+		"text": "boolean",
 		"type": "value"
 	},
 	{
@@ -76,7 +80,19 @@
 		"type": "value"
 	},
 	{
-		"text": "short",
+		"text": "date",
+		"type": "value"
+	},
+	{
+		"text": "decimal",
+		"type": "value"
+	},
+	{
+		"text": "double",
+		"type": "value"
+	},
+	{
+		"text": "float",
 		"type": "value"
 	},
 	{
@@ -88,35 +104,11 @@
 		"type": "value"
 	},
 	{
-		"text": "decimal",
+		"text": "short",
 		"type": "value"
 	},
 	{
-		"text": "float",
-		"type": "value"
-	},
-	{
-		"text": "double",
-		"type": "value"
-	},
-	{
-		"text": "smallint",
-		"type": "value"
-	},
-	{
-		"text": "longvarchar",
-		"type": "value"
-	},
-	{
-		"text": "varchar",
-		"type": "value"
-	},
-	{
-		"text": "boolean",
-		"type": "value"
-	},
-	{
-		"text": "date",
+		"text": "string",
 		"type": "value"
 	},
 	{
@@ -125,14 +117,6 @@
 	},
 	{
 		"text": "timestamp",
-		"type": "value"
-	},
-	{
-		"text": "binary",
-		"type": "value"
-	},
-	{
-		"text": "longtext",
 		"type": "value"
 	}
 ]
