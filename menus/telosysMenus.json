@@ -1,9 +1,15 @@
 {
   "menu" : [
     {
-
-       "label": "Telosys-CLI", "command": "telosys:cli" 
-
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Telosys CLI", "command": "telosys:cli"
+        }
+      ]
+    },
+    {
+      "label": "Telosys-CLI", "command": "telosys:cli"
     }
   ]
 }

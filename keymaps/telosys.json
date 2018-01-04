@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-t": "telosys:cli"
+    "ctrl-alt-t": "telosys:cli",
+    "cmd-shift-t": "telosys:cli"
   }
 }
