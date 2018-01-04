@@ -13,7 +13,7 @@
     "atom": "*"
   },
   "providedServices": {
-    "telosys.provider": {
+    "autocomplete.provider": {
       "versions": {
         "2.0.0": "getProvider"
       }
